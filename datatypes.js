@@ -143,11 +143,4 @@
 // console.log("value == num:",value == num);
 // console.log("value === num:",value === num);
 // console.log("value != num:",value!=num);
-
-
-
-
-
-
-
-
+//console.log();
