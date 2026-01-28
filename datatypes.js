@@ -1,48 +1,56 @@
 //DataTypes
 //1.Primitive 2.Non primitive
 
-let num1=1;
-let num2=2;
-console.log("number", num1,num2);
+// let num1=1;
+// let num2=2;
+// console.log("number", num1,num2);
 
 
 //String
 
-let name="Mayuri";
-let name2="Misa";
-console.log("names:",name,name2);
+// let name="Mayuri";
+// let name2="Misa";
+// console.log("names:",name,name2);
 
 //Boolean
-let isTrue=true;
-let isFalse=false;
-console.log("boolean:",isTrue);
+// let isTrue=true;
+// let isFalse=false;
+// console.log("boolean:",isTrue);
 
 //Undefined
 
-let a;
-console.log("undefined",a);
+// let a;
+// console.log("undefined",a);
 
 //BigInt
-let BigInt=12345678910123;
-console.log(BigInt);
+// let BigInt=12345678910123;
+// console.log(BigInt);
 
 //2.Non-primitive
 
 //Object
 
-let Student={
-    name:"Ma",
-    roll:"65",
-    address:{
-        city:"ksd",
-    }
-}
-console.log(Student);
+// let Student={
+//     name:"Ma",
+//     roll:"65",
+//     address:{
+//         city:"ksd",
+//     }
+// }
+// console.log(Student);
 
 //Array
 
-let c = [1,2,3,4,5,6]
-console.log(c);
+// let c = [1,2,3,4,5,6]
+// console.log(c);
+
+// let  d=[1,2,3]
+// let student ={
+
+// }
+// let arrofstud=[{},{}]
+// let(d)
+
 
 
 
