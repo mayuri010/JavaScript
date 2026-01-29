@@ -114,29 +114,53 @@
 // console.log(arr);
 
 
-console.log("Array iteration method : ");
-let numbers = [1, 2, 3, 4, 5]
+// console.log("Array iteration method : ");
+// let numbers = [1, 2, 3, 4, 5]
 //map
-console.log("map :", numbers.map(num => num * 2));
-console.log("after map old array : ", numbers);
+// console.log("map :", numbers.map(num => num * 2));
+// console.log("after map old array : ", numbers);
 //filter
-console.log("filter : ", numbers.filter(num => num > 2));//for and if combination then use
-console.log("after filter old array :", numbers);
+// console.log("filter : ", numbers.filter(num => num > 2));//for and if combination then use
+// console.log("after filter old array :", numbers);
 //forEach
-console.log("forEach :");
-numbers.forEach(num => console.log(num))
+// console.log("forEach :");
+// numbers.forEach(num => console.log(num))
 // foreach ->each & every elemet iteration thay
 //Sort 
-let num =[3,5,2,4,1,6]
-console.log("sort() :",num.sort());
+// let num =[3,5,2,4,1,6]
+// console.log("sort() :",num.sort());
 //reverse
-console.log("reverse() :",num.reverse());
+// console.log("reverse() :",num.reverse());
 
 //nested array
-let nestedArray =[1,2,[3,4],[5,6]]
-console.log("Default nested array :",nestedArray)
-let flatArray = nestedArray.flat()
-console.log("flatArray",flatArray)
+// let nestedArray =[1,2,[3,4],[5,6]]
+// console.log("Default nested array :",nestedArray)
+// let flatArray = nestedArray.flat()
+// console.log("flatArray",flatArray)
+
+//****Array destructuring */
+//array destructuring jetla element require che tetla element leva 
+// let array =[1,2,3,4,5]
+// const [first,second,third]=array
+// console.log(first);
+// console.log(second);
+// console.log(third);
+
+//SKIPPING VALUES
+let array1 =[1,2,3,4]
+const [first, ,third]=array1
+// console.log(first);
+// console.log(third);
+
+//rest operator//spread
+const num1 =[1,2,3,4,5]
+const [fir,second,...rest]=num1
+console.log(fir);
+console.log(second);
+console.log(rest);
+
+
+
 
 
 
