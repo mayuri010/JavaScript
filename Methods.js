@@ -40,8 +40,3 @@ let extraext =" - hello js";
 console.log("Concat():",str.concat(extraext));
 
 console.log("Split():",str.split(" "));
-
-
-
-
-
