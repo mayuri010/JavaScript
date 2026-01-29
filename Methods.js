@@ -1,3 +1,4 @@
+// *************************************************
 // String methods
 // length()
 // trim()-1.ltrim & 2.rtrim
@@ -11,32 +12,139 @@
 // concat()
 // split()
 
-let str ="hello javascript world"
-console.log(str);
-console.log(str.length);
+// let str ="hello javascript world"
+// console.log(str);
+// console.log(str.length);
 //trim
-let trimText = str.trim();
-console.log("trim() :",trimText);
+// let trimText = str.trim();
+// console.log("trim() :",trimText);
 
 //UpperCase
 
-console.log("toUpperCase() : ", str.toUpperCase());
+// console.log("toUpperCase() : ", str.toUpperCase());
 
 //LowerCase
-console.log("toLowerCase() :",str.toLowerCase());
+// console.log("toLowerCase() :",str.toLowerCase());
 
 // includes
-console.log("includes() :",str.includes("jss"));
+// console.log("includes() :",str.includes("jss"));
 
-console.log("indexOf() :",str.indexOf("js"));
+// console.log("indexOf() :",str.indexOf("js"));
 
-console.log("slice() :",str.slice(2,7));
+// console.log("slice() :",str.slice(2,7));
 
-console.log("suubString():",str.substring(2,7));
+// console.log("suubString():",str.substring(2,7));
 
-console.log("replace()",str.replace("javascript","React"));
+// console.log("replace()",str.replace("javascript","React"));
 
-let extraext =" - hello js";
-console.log("Concat():",str.concat(extraext));
+// let extraext =" - hello js";
+// console.log("Concat():",str.concat(extraext));
 
-console.log("Split():",str.split(" "));
+// console.log("Split():",str.split(" "));
+
+//******************************************* */
+// array methods()
+// push()
+// pop()
+// unshift()
+// shift()
+// concat()
+// includes()
+// indexOf()
+// splice()
+// slice()
+// join()
+// delete()
+// map()
+// filter()
+// find()
+// forEach()
+// sort()
+// reverse()
+// flat()
+
+// let arr = ['one','two','three',1,{name:'name'}]
+// console.log("Default Array:",arr);
+// console.log("length() :",arr.length);
+
+//push
+// console.log("push() :",arr.push( "new added"));
+// arr.push("new array element");
+// console.log("array after push :",arr);
+
+//pop
+// arr.pop();
+// console.log("array after pop :",arr);
+
+//unShift
+// arr.unshift("first element")
+// console.log('array after unshift:',arr);
+
+//shift
+// arr.shift()
+// console.log('array after shift :',arr);
+
+//concat
+// let newArr =["str 1","str 2"];
+// let mixedArr =arr.concat(newArr);
+// console.log("default array after concat :", arr);
+// console.log("array after concat :",mixedArr);
+
+//include
+// console.log("include(): ",arr.includes("three"));
+// if(arr.includes("two")){
+//     //logic
+// }
+
+//indexOf
+// console.log("indexOf()",arr.indexOf("three"));
+
+//slice
+// console.log("slice()",arr.slice(2,4));
+
+//splice
+// console.log("splice():",arr.splice(2,4));
+// console.log("old array:",arr);
+
+//join
+// console.log("join()",arr.join(","));
+
+//delete
+// delete arr[4]
+// console.log(arr);
+
+
+console.log("Array iteration method : ");
+let numbers = [1, 2, 3, 4, 5]
+//map
+console.log("map :", numbers.map(num => num * 2));
+console.log("after map old array : ", numbers);
+//filter
+console.log("filter : ", numbers.filter(num => num > 2));//for and if combination then use
+console.log("after filter old array :", numbers);
+//forEach
+console.log("forEach :");
+numbers.forEach(num => console.log(num))
+// foreach ->each & every elemet iteration thay
+//Sort 
+let num =[3,5,2,4,1,6]
+console.log("sort() :",num.sort());
+//reverse
+console.log("reverse() :",num.reverse());
+
+//nested array
+let nestedArray =[1,2,[3,4],[5,6]]
+console.log("Default nested array :",nestedArray)
+let flatArray = nestedArray.flat()
+console.log("flatArray",flatArray)
+
+
+
+
+
+
+
+
+
+
+
