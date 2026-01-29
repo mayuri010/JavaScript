@@ -103,14 +103,14 @@
 
 
 // // Assignment operator
-// let value=10;
-// console.log('DEFAULT VALUE:',value);
+let value=10;
+console.log('DEFAULT VALUE:',value);
 
-// value +=5 //value + 5
-// console.log(value);
+value +=5 //value + 5
+console.log(value);
 
-// value -=5 //value - 5
-// console.log(value);
+value -=5 //value - 5
+console.log(value);
 
 // value *=5 //value * 5
 // console.log(value);
