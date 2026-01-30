@@ -1,5 +1,5 @@
 // *************************************************
-// String methods
+// ********String methods
 // length()
 // trim()-1.ltrim & 2.rtrim
 // toUpperCase()
@@ -29,21 +29,21 @@
 // includes
 // console.log("includes() :",str.includes("jss"));
 
-// console.log("indexOf() :",str.indexOf("js"));
+// console.log("indexOf() :",str.indexOf("world"));
 
 // console.log("slice() :",str.slice(2,7));
 
 // console.log("suubString():",str.substring(2,7));
 
-// console.log("replace()",str.replace("javascript","React"));
+// console.log("replace():",str.replace("javascript","React"));
 
-// let extraext =" - hello js";
-// console.log("Concat():",str.concat(extraext));
+// let extraText =" - hello js";
+// console.log("Concat():",str.concat(extraText));
 
 // console.log("Split():",str.split(" "));
 
 //******************************************* */
-// array methods()
+// ********array methods()
 // push()
 // pop()
 // unshift()
@@ -67,20 +67,20 @@
 // console.log("Default Array:",arr);
 // console.log("length() :",arr.length);
 
-//push
+//push=>last ma new element add thy
 // console.log("push() :",arr.push( "new added"));
 // arr.push("new array element");
 // console.log("array after push :",arr);
 
-//pop
+//pop=>last element delete thy
 // arr.pop();
 // console.log("array after pop :",arr);
 
-//unShift
+//unShift=>ahead element add thy
 // arr.unshift("first element")
 // console.log('array after unshift:',arr);
 
-//shift
+//shift=>ahead element delete thy
 // arr.shift()
 // console.log('array after shift :',arr);
 
@@ -90,7 +90,7 @@
 // console.log("default array after concat :", arr);
 // console.log("array after concat :",mixedArr);
 
-//include
+//include=>element che k nahi te check kare->true fale return kre
 // console.log("include(): ",arr.includes("three"));
 // if(arr.includes("two")){
 //     //logic
@@ -115,26 +115,35 @@
 
 
 // console.log("Array iteration method : ");
-// let numbers = [1, 2, 3, 4, 5]
+let numbers = [1, 2, 3, 4, 5]
+
 //map
+
 // console.log("map :", numbers.map(num => num * 2));
 // console.log("after map old array : ", numbers);
+
 //filter
-// console.log("filter : ", numbers.filter(num => num > 2));//for and if combination then use
+
+console.log("filter : ", numbers.filter(num => num > 2));//for and if combination then use
 // console.log("after filter old array :", numbers);
+
 //forEach
+
 // console.log("forEach :");
 // numbers.forEach(num => console.log(num))
 // foreach ->each & every elemet iteration thay
+
 //Sort 
+
 // let num =[3,5,2,4,1,6]
 // console.log("sort() :",num.sort());
+
 //reverse
 // console.log("reverse() :",num.reverse());
 
 //nested array
 // let nestedArray =[1,2,[3,4],[5,6]]
-// console.log("Default nested array :",nestedArray)
+// console.log("Default nested array :".nestedArray)
 // let flatArray = nestedArray.flat()
 // console.log("flatArray",flatArray)
 
@@ -147,28 +156,14 @@
 // console.log(third);
 
 //SKIPPING VALUES
-let array1 =[1,2,3,4]
-const [first, ,third]=array1
+// let array1 =[1,2,3,4]
+// const [first, ,third]=array1
 // console.log(first);
 // console.log(third);
 
 //rest operator//spread
-const num1 =[1,2,3,4,5]
-const [fir,second,...rest]=num1
-console.log(fir);
-console.log(second);
-console.log(rest);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// const num1 =[1,2,3,4,5]
+// const [fir,second,...rest]=num1
+// console.log(fir);
+// console.log(second);
+// console.log(rest);
